@@ -42,6 +42,16 @@ services:
     depends_on:
       - elasticsearch
 
+  rsyslog:
+    build:
+      context: rsyslog/
+    ports:
+      - "10514:514"
+    networks:
+      - elk
+    depends_on:
+      - logstash
+
 networks:
 
   elk:
