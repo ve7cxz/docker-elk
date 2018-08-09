@@ -1,6 +1,6 @@
 # Elastic stack (ELK) on Docker
 
-** This fork adds rsyslog support, by default on TCP port 10514. All syslog sent to this will get forwarded on to logstash **
+**This fork adds rsyslog support, by default on TCP port 10514. All syslog sent to this will get forwarded on to logstash**
 
 [![Join the chat at https://gitter.im/deviantony/docker-elk](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/deviantony/docker-elk?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Elastic Stack version](https://img.shields.io/badge/ELK-6.3.0-blue.svg?style=flat)](https://github.com/deviantony/docker-elk/issues/286)
